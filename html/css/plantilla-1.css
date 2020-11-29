@@ -150,3 +150,58 @@ width: 100%;
 height: 10%;
 border-color: #ffffff;
 }
+.US{
+    position: absolute;
+    top: 141%;
+    left: 47%;
+
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #09A4D8;
+}
+
+.YEARS{
+    position: absolute;
+    top: 145%;
+    left: 35%;
+    font-family: Roboto Slab;
+font-style: normal;
+font-weight: normal;
+font-size: 35px;
+line-height: 48px;
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #0F1C49;
+}
+.sub{
+    position: absolute;
+    top: 153%;
+    left: 35.5%;
+
+    font-family: Rubik;
+font-style: normal;
+font-weight: normal;
+font-size: 14.5px;
+line-height: 28px;
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #878DA4;
+right: 37%;
+}
+
+}
