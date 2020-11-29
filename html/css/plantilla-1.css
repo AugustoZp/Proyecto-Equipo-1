@@ -16,7 +16,8 @@
     height: 720px;
 }
 body{
-    font-family: 'Rubik', sans-serif;  
+    font-family: 'Rubik', sans-serif;
+    overflow-x: hidden;  
 }
 .header
 {
@@ -42,7 +43,6 @@ h3.company-name{
     line-height: 28px;
     color: #ffffff;
 }
-}
 .button{
 position: absolute;
 left: 100%;
@@ -52,3 +52,101 @@ opacity: 0.1;
 border: 1px solid #ffffff;
 border-radius: 4px;
 color: #ffffff;
+}
+.Text{
+    color: #ffffff;
+font-style: normal;
+font-weight: bold;
+
+}
+.About{
+    padding: 10%;
+    padding-left: 0px;
+    font-size: 45PX;
+    left: 20%;
+    position: absolute;
+    top: 2%;
+}
+.letrita h5{
+    position: absolute;
+padding-left: 0%;
+font-size: 12.5px;
+top: 60%;
+font-family: Rubik;
+font-style: normal;
+font-weight: normal;
+opacity: 0.5;
+left: 20%;
+top: 50%;   
+}
+.gg{
+    position: absolute;
+    position: absolute;
+width: 1%;
+left: 79%;
+top: 31%;
+}
+.vale2{
+    position: absolute;
+    left: 40%;
+    margin-top: -26%;
+}
+.bg-clo2{
+    position: absolute;
+    left: 15%;
+    top: 102.5%;
+    opacity: .7;
+}
+.patter{
+    position: absolute;
+    left: 63%;
+    top: 41%;
+}
+.bg-clo{
+    position: absolute;
+    left: 52%;
+    top: 48%;
+}
+.app{
+position: absolute;
+padding-top: 3.5%;
+font-family: Roboto Slab;
+font-style: normal;
+font-weight: normal;
+font-size: 37px;
+left: 63%;
+top: 50%;
+
+line-height: 48px;
+color: #0F1C49;
+
+}
+.formas3{
+position: absolute;
+left: 58%;
+width: 20.5%;
+top: 62%;
+}
+.form-control{
+background: #FFFFFF;
+border: 1px solid #EEEEEE;
+box-sizing: border-box;
+border-radius: 4px;
+font-family: Rubik;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 28px;
+
+color: #878DA4;
+}
+
+.but{
+    position: absolute;
+background: #09A4D8;
+border-radius: 4px;
+color: #ffffff;
+width: 100%;
+height: 10%;
+border-color: #ffffff;
+}
