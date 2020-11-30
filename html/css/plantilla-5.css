@@ -10,6 +10,7 @@
 
 
 body{
+	overflow-x: hidden;
     font-family: 'Rubik', sans-serif;  
 }
 .header
@@ -107,10 +108,14 @@ right: 62.77%;
 top: 65%;
 background: #FFFFFF;
 }
+.contenedor{
+margin-top: 4%;
+width: 100;
+height: 120px;
+}
 h3.subt{
-	padding-top: 55px;
-width: 200%;
-position: absolute;
+width: 100%;
+position: relative;
 font-family: Roboto Slab;
 font-style: normal;
 font-weight: normal;
@@ -122,36 +127,8 @@ text-align: center;
 color: #0F1C49;
 }
 h4.texx{
-	padding-top: 125px;
-position: absolute;
-width: 200%;
-font-family: Rubik;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 28px;
-align-items: center;
-text-align: center;
-
-color: #878DA4;
-}
-h3.cares2{
-padding-top: 225px;
-position: absolute;
-width: 70%;
-font-family: Rubik;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 28px;
-align-items: center;
-text-align: center;
-
-color: #09A4D8;
-}
-h3.cares2{
-padding-top: 225px;
-position: absolute;
+	margin-top: 1%;
+position: relative;
 width: 100%;
 font-family: Rubik;
 font-style: normal;
@@ -163,10 +140,11 @@ text-align: center;
 
 color: #878DA4;
 }
-h3.cares{
-padding-top: 225px;
-position: absolute;
-width: 130%;
+.care2{
+top: 34px;
+left: 37%;
+position: relative;
+width: 100%;
 font-family: Rubik;
 font-style: normal;
 font-weight: normal;
@@ -174,6 +152,88 @@ font-size: 16px;
 line-height: 28px;
 align-items: center;
 text-align: center;
-
+color: #09A4D8;
+}
+.care{
+position: relative;
+width: 100%;
+top: 34px;
+left: 40%;
+font-family: Rubik;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 28px;
+align-items: center;
+text-align: center;
 color: #878DA4;
+}
+.care3{
+position: relative;
+width: 100%;
+top: 34px;
+left: 43%;
+font-family: Rubik;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 28px;
+align-items: center;
+text-align: center;
+color: #878DA4;
+	}
+.tab{
+width: 100%;
+text-align: center;
+align-items: center;
+position: absolute;
+}
+.contenidos{
+	padding-left: 2.5%;
+padding-top: 7%;
+padding-bottom: 1%;
+align-items: center;
+}
+.contenidos2{
+padding-top: 6%;
+padding-left: 2.5%;
+align-items: center;
+margin-bottom: 15%;
+}
+.lead{
+	padding-left: 25%;
+font-family: Rubik;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+align-items: center;
+letter-spacing: 1px;
+color: #878DA4;
+}
+h4.nombres2{
+	padding-left: 25%;
+padding-top: 5%;
+	font-family: Rubik;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 38px;
+	align-items: center;
+	color: #0F1C49;
+}
+.fondo-inferior{
+	background: url(../images/plantilla-5/fofo.png);
+    position: relative;
+    width: 100%;
+    height: 589px;
+}
+p.information{
+font-family: Rubik;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+align-items: center;
+color: rgba(255, 255, 255, 0.6);
 }
