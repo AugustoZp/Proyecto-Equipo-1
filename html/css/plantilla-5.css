@@ -60,7 +60,7 @@ position: absolute;
 left: -10%;
 right: -12%;
 top: 35%;
-font-family: Roboto Slab;
+font-family: 'Roboto Slab', serif;
 font-style: normal;
 font-weight: bold;
 font-size: 56px;
@@ -241,11 +241,11 @@ padding-top: 5%;
     padding: 20px;
 }
 .social2{
-	margin-top: -10.85%;
+	margin-top: -10.25%;
 	padding-left: 28%;
 }
 .social3{
-	margin-top: -7%;
+	margin-top: -5.65%;
 	padding-left: 45%;
 }
 .contener{
@@ -278,7 +278,8 @@ padding-top: 5%;
 }
 .three{
     left: 70px;
-    position: relative;
+	position: relative;
+	
 }
 .cont-2{
     height: 100%;
@@ -329,10 +330,11 @@ padding-top: 5%;
     height: 52px;
     padding-top: 12px;
     background: #103365;
-    color: rgb(255, 255, 255, 0.6);
+	color: rgb(255, 255, 255, 0.6);
+	font-size: 14px;
 }
 @media (min-width: 320px) and (max-width: 767px) {
-	.bg{
+	.textos-header{
 		width:100%;
 	}
 
@@ -471,6 +473,7 @@ padding-top: 5%;
 	}
 	.container-copy{
 		height: 100%;
+		font-size: 9px;
 	}
 
 }
@@ -485,16 +488,16 @@ padding-top: 5%;
 	}
 	.img-logo{
 		padding-left: 5%;
-		padding-top: 5%;
+		margin-top: -.5%;
 	}
 	h3.company-name{
 		font-size: 26px;
-		padding-top: 13%;
+		padding-top: 12%;
 	}
 	button{
-		top: -20%;
-		left: 70%;
-		width: 45%;
+		top: -15%;
+		left: 73%;
+		width: 40%;
 		height: 25%;
 		font-size: 15px;
 	}
@@ -623,5 +626,6 @@ padding-top: 5%;
 		width: 50%;
 		margin-top: -19.5%;
 	}
+
 }
 
