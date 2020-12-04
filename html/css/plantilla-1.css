@@ -27,7 +27,7 @@ h3.company-name{
 .nav-link
 {
     padding-top: 20px;
-    font-family: Rubik;
+    font-family: 'Rubik', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -43,7 +43,104 @@ border: 1px solid #ffffff;
 border-radius: 4px;
 color: #ffffff;
 }
+.text{
+    width: 100%;
+    position: absolute;
+    top: 27%;
+    left: 20%;
+}
+h2.about{
+font-family: 'Roboto Slab', serif;
+font-style: normal;
+font-weight: bold;
+font-size: 56px;
+line-height: 72px;
+color: #ffffff;
+}
+h4.texx{
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 28px;
+color: rgba(255, 255, 255, 0.6);
+padding-top: 5%;
+}
+.arrow{
+width: 100%;
+text-align: center;
+position: relative;
+left: 40%;
+top: 20%;
+}
+.conte{
+    width: 100%;
+    position: relative;
+    text-align: center;
+    top: 45%;
+    left: 15.75%;
+}
+img.bg{
+    position: relative;
+    top: -3.8%;
+}
+img.bolitas{
+    position: absolute;
+    top: -10%;
+    left: 57.5%;
+}
+img.bolitas2{
+    position: absolute;
+    top: 59%;
+    left: 0.25%;
+}
+.contenedor{
+    margin-top: 40%;
+}
+.about-us{
+    width: 100%;
+}
+h2.mangos{
+text-align: center;
+font-family: 'Rubik', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 24px;
+color: #09A4D8;
+width: 100%;
+}
+h3.we-have{
+font-family: 'Roboto Slab', serif;
+font-style: normal;
+font-weight: normal;
+font-size: 32px;
+line-height: 48px;
+text-align: center;
+width: 100%;
+color: #0F1C49;
+}
+h4.we-have-remarcado{
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+    width: 100%;
+    color: #0F1C49;
+}
+h3.lore{
+font-family: 'Rubik', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 28px;
+align-items: center;
+text-align: center;
 
+color: #878DA4;
+}
 @media (min-width: 320px) and (max-width: 767px) {
 }
 
