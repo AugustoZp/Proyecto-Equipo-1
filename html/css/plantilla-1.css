@@ -197,6 +197,66 @@ padding-bottom: 3%;
 padding-left: 4%;
 padding-right: 4%;
 }
+.puntitos{
+position: absolute;
+left: 6.5%;
+top: 85%;
+}
+.cares{
+    position: absolute;
+    width: 100%;
+    top: -2%;
+}
+.ojo{
+    position: absolute;
+}
+.eye{
+    position: absolute;
+    top: 50%;
+    left: 18%;
+}
+.diente{
+position: absolute;
+left: 48%;
+top: 25%;
+}
+
+.cares2{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 80%;
+    left: 38.5%;
+
+}
+.dental{
+position: absolute;
+left: 61%;
+top: 77%;
+}
+.prima{
+position: absolute;
+top: 85%;
+left: 0.5%;
+
+}
+.primary{
+position: absolute;
+top: 150%;
+left: 14%;
+
+}
+.cardio{
+    position: absolute;
+    left: 45.5%;
+}
+.ours{
+    width: 100%;
+
+
+
+
+}
 @media (min-width: 320px) and (max-width: 767px) {
 }
 
