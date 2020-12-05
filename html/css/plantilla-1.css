@@ -99,6 +99,7 @@ img.bolitas2{
 }
 .about-us{
     width: 100%;
+
 }
 h2.mangos{
 text-align: center;
@@ -120,7 +121,7 @@ text-align: center;
 width: 100%;
 color: #0F1C49;
 }
-h4.we-have-remarcado{
+.rema{
     font-family: 'Roboto Slab', serif;
     font-style: normal;
     font-weight: bold;
@@ -141,8 +142,114 @@ text-align: center;
 
 color: #878DA4;
 }
+img.linearriba{
+    position: absolute;
+    width: 80%;
+    text-align: center;
+    align-items: center;
+    left: 10.5%;
+    padding-top: 7%;
+    margin-bottom: 5%;
+}
+.contener{
+    width: 100%;
+    position: absolute;
+    left: 10.5%;
+    margin-top: 12%;
+}
+h2.servs{
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #09A4D8;
+    width: 100%;
+}
+h3.lore2{
+font-family: 'Rubik', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 28px;
+color: #878DA4;
+margin-bottom: 4%;
+}
+li.list{
+font-family: 'Rubik', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 28px;
+align-items: center;
+color: #878DA4;
+}
+.bobo{
+    margin-top: 10%;
+    margin-left: 2%;
+}
+a.boton-serv{
+background-color: #09A4D8;
+color: #ffffff;
+border-radius: 4px;
+padding-top: 3%;
+padding-bottom: 3%;
+padding-left: 4%;
+padding-right: 4%;
+}
 @media (min-width: 320px) and (max-width: 767px) {
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
+    .fondo{
+        width: 100%;
+        height: 550px;
+	}
+	.img-logo{
+		padding-left: 5%;
+		margin-top: -.5%;
+	}
+	h3.company-name{
+		font-size: 26px;
+        padding-top: 10%;
+	}
+	.nav-link{
+        text-align: center;
+		margin-left: 65%;
+        width: 35%;
+		font-size: 15px;
+	}
+    .btn{
+        margin-left: 100%;
+        margin-top: 10%;
+        width: 100%;
+    }
+    .text{
+        width: 100%;
+        top: 25%;
+        left: 10%;
+    }
+    h2.about{
+        width: 100%;
+        font-size: 32px;
+    }
+    h4.texx{
+        width: 100%;
+        font-size: 14px;
+    }
+    .arrow{
+        top: -0%;
+    }
+    .conte{
+        top: -10%;
+    }
+    img.silla{
+        margin-left: -40%;
+        width: 100%;
+    }
+    img.bolitas2{
+        top: 27.5%;
+        left: -14%;
+        width: 20%;
+    }
 }
