@@ -117,10 +117,19 @@ font-style: normal;
 font-weight: normal;
 font-size: 32px;
 line-height: 48px;
-text-align: center;
 width: 100%;
 color: #0F1C49;
+text-align: center;
 }
+h3.we-have2{
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 48px;
+    width: 100%;
+    color: #0F1C49;
+    }
 .rema{
     font-family: 'Roboto Slab', serif;
     font-style: normal;
@@ -151,11 +160,16 @@ img.linearriba{
     padding-top: 7%;
     margin-bottom: 5%;
 }
-.contener{
+.contenedor2{
     width: 100%;
-    position: absolute;
-    left: 10.5%;
-    margin-top: 12%;
+    margin-bottom: 19%;
+}
+.serve{
+    width: 100%;
+}
+.services{
+    margin-top: 13%;
+    margin-left: 10%;
 }
 h2.servs{
     font-family: 'Rubik', sans-serif;
@@ -164,7 +178,7 @@ h2.servs{
     font-size: 14px;
     line-height: 24px;
     color: #09A4D8;
-    width: 100%;
+    left: 30%;
 }
 h3.lore2{
 font-family: 'Rubik', sans-serif;
@@ -197,66 +211,68 @@ padding-bottom: 3%;
 padding-left: 4%;
 padding-right: 4%;
 }
-.puntitos{
+.bolitas3{
 position: absolute;
-left: 6.5%;
+left: 25%;
 top: 85%;
 }
 .cares{
     position: absolute;
-    width: 100%;
-    top: -2%;
+    left: 50%;
+    margin-top: -23%;
 }
-.ojo{
-    position: absolute;
-}
-.eye{
-    position: absolute;
-    top: 50%;
-    left: 18%;
-}
-.diente{
+h2.eye{
 position: absolute;
-left: 48%;
-top: 25%;
+left: 37%;
+margin-top: -38%;
+font-family: 'Rubik', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 38px;
+align-items: center;
+text-align: center;
 }
-
 .cares2{
     position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 80%;
-    left: 38.5%;
-
+    left: 66%;
+    margin-top: -18%;
 }
-.dental{
+h2.dental{
 position: absolute;
-left: 61%;
-top: 77%;
+left: 32%;
+margin-top: -38%;
+font-family: 'Rubik', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 38px;
+align-items: center;
+text-align: center;
 }
-.prima{
-position: absolute;
-top: 85%;
-left: 0.5%;
-
-}
-.primary{
-position: absolute;
-top: 150%;
-left: 14%;
-
-}
-.cardio{
+.cares3{
     position: absolute;
-    left: 45.5%;
+    left: 50%;
+    margin-top: -7%;
 }
-.ours{
-    width: 100%;
-
-
-
-
+h2.prima{
+position: absolute;
+left: 30%;
+margin-top: -38%;
+font-family: 'Rubik', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 38px;
+align-items: center;
+text-align: center;
 }
+.cares4{
+    position: absolute;
+    left: 66%;
+    margin-top: -2%;
+}
+
 @media (min-width: 320px) and (max-width: 767px) {
 }
 
