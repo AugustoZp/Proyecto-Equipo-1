@@ -783,7 +783,130 @@ h2.ver{
     text-decoration-line: underline;
     color: #09A4D8;
 }
+.contento{
+    margin-top: 10%;
+    padding-top: 5%;
+    width: 100%;
+    height: 690px;
+    background: linear-gradient(136.8deg, #08B4E4 -3.96%, #0B7EBA 37.38%, #0E418A 90.63%), #D8D8D8;
+}
+.nrg{
+    position: absolute;
+    margin-left: 24%;
+}
+h4.up{
 
+font-family: 'Rubik', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+
+align-items: center;
+letter-spacing: 1px;
+
+color: rgba(255, 255, 255, 0.6);
+}
+h2.just{
+    font-family: 'Roboto Slab', serif;
+font-style: normal;
+font-weight: normal;
+font-size: 32px;
+line-height: 48px;
+
+
+
+color: #FFFFFF;
+}
+.cosito{
+    position: absolute;
+    width: 45%;
+    margin-left: 45%;
+    left: 75%;
+    
+}
+img.rayita{
+    position: relative;
+    margin-top: 8%;
+    margin-left: 20%;
+    background: rgba(255, 255, 255, 0.2);
+}
+.logis{
+    position: relative;
+}
+h2.logi{
+    position: relative;
+}
+.log{
+    position: absolute;
+    width: 100%;
+    left: 9%;
+    margin-top: 5%;
+}
+h3.com{
+    font-family: 'Rubik', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 38px;
+
+
+  display: flex;
+  align-items: center;
+
+  color: #FFFFFF;
+
+}
+.textt{
+    position: relative;
+    margin-top: 10%;
+    margin-left: 8.1%;
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+
+    color: rgba(255, 255, 255, 0.6);
+
+}
+.infort{
+    font-family: 'Rubik', sans-serif;    
+    color: rgba(255, 255, 255, 0.6);
+    margin-left: 6%;
+}
+.det{
+    position: relative;
+    margin-top: -18%;
+    margin-left: 55%;
+
+}
+.det2{
+    position: relative;
+    margin-top: -14%;
+    margin-left: 73%;
+
+}
+h5.link-2{
+    font-family: 'Rubik', sans-serif; 
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 32px;
+
+color: #FFFFFF;
+
+}
+h5.link-1{
+    font-family: 'Rubik', sans-serif; 
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 32px;
+
+color: #FFFFFF;
+
+}
 
 
 @media (min-width: 320px) and (max-width: 767px) {
