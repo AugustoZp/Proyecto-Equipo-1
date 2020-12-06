@@ -128,7 +128,7 @@ h3.company-name{
     text-align: center;
     width: 100%;
     align-items: center;
-    left: 10%;
+    left: 15%;
 }
 .flecha-1{
     margin-left: 75%;
@@ -280,6 +280,7 @@ h3.company-name{
 }
 .pricing{
     margin-top: 40px;
+    position: relative;
 }
 .renglon{
     background: #eeeeee;
@@ -314,14 +315,14 @@ h3.company-name{
     height: 1px;
     width: 570px;
     position: absolute;
-    top: 73.94%;
+    top: 78.94%;
 }
 .renglon-5{
     background: #eeeeee;
     height: 1px;
     width: 570px;
     position: absolute;
-    top: 78.8%;
+    top: 98%;
 }
 .espace-2{
     background-color: #FFFFFF;
@@ -438,4 +439,247 @@ h3.company-name{
     background: #103365;
 	color: rgb(255, 255, 255, 0.6);
 	font-size: 14px;
+}
+
+@media (min-width: 768px) and (max-width: 1023px){
+    .img-fluid{
+        max-width: 100%;
+        height: auto;
+    }
+    body{
+    overflow-x: hidden; 
+    }
+    .header{
+        width: 100%;
+        padding-bottom: 10px;
+    }
+    .img-logo{
+        margin-top: 2%;
+        margin-left: 35%;
+        padding: -1%;
+    }
+    .img-fluid{
+        max-width: 100%;
+        height: auto;
+    }
+    h3.company-name{
+        margin-top: 15px;
+    }
+    .barra{
+        margin-left: 35%;
+    }
+    .nav-link{
+        text-align: center;
+        margin-left: 1%;
+        width: 80%;
+        font-size: 15px;
+    }
+    .remarcado{
+        width: 100%;
+        text-align: center;
+        margin-left: -9%;
+    }
+    .barra button{
+        left: -20%;
+        width: 125%;
+        height: 40%;
+    }
+    .fondo-azul{
+        top: 25px;
+        width: 100%;
+        position: relative;
+        text-align: center;
+    }
+    .services{
+        top: 42%;
+        font-size: 28px;
+    }
+    .services2{
+        margin-left: -4%;
+        padding: 2%;
+        font-size: 12px;
+    }
+    .services3{
+        padding: 2%;
+        font-size: 12px;
+        margin-left: 1%;
+    }
+    .services4{
+        padding: 2%;
+        font-size: 12px;
+        margin-left: 6%;
+    }
+    .circulo{
+        width: .6%;
+        margin-top: 2.7%;
+        margin-left: -1.5%;
+    }
+    .circulo_1{
+        width: .6%;
+        margin-top: 2.7%;
+        left: 57%;
+    }
+    .espace{
+        background-color: #FFFFFF;
+        margin: 10%;
+        width: 100%;
+    }
+    .img-fluid{
+        max-width: 100%;
+        height: auto;
+    }
+    .chica{
+        margin-left: 80px;
+    }
+    .tabla table{
+        width: 100%;
+        margin-top: 50%;
+        text-align: center;
+        margin-left: 40px;
+    }
+    .flecha-1{
+        left: 180%;
+    }
+    .flecha-2{
+        left: 180%;
+    }
+    .flecha-3{
+        left: 180%;
+    }
+    .flecha-4{
+        left: 180%;
+    }
+    .flecha-5{
+        left: 180%;
+    }
+    .info{
+        width: 100%;
+        margin-left: 50%;
+        margin-top: 140%;
+    }
+    .info h2{
+        text-align: center;
+        width: 100%;
+        font-size: 26px;
+        font-family: 'Rubik', sans-serif;
+    }
+    .info p{
+        text-align: center;
+        width: 100%;
+        font-size: 14px;
+    }
+    .pricing{
+        width: 100%;
+        left: 20%;
+    }
+    .pricing td{
+        width: 100%;
+        margin-left: -50%;
+        align-items: center;
+        text-align: left;
+    }
+    .word{
+        padding-left: 360px;
+    }
+    .word-1{
+        padding-left: 360px;
+    }
+    .word-2{
+        padding-left: 360px;
+    }
+    .word-3{
+        padding-left: 360px;
+    }
+    .word-4{
+        padding-left: 360px;
+    }
+    .word-5{
+        padding-left: 360px;
+    }
+    .renglon{
+        right: 210px;
+        width: 185%;
+    }
+    .renglon-1{
+        right: 210px;
+        width: 185%;
+    }
+    .renglon-2{
+        right: 210px;
+        width: 185%;
+    }
+    .renglon-3{
+        right: 210px;
+        width: 185%;
+    }
+    .renglon-4{
+        right: -68px;
+        width: 170%;
+    }
+    .renglon-5{
+        right: -68px;
+        width: 170%;
+    }
+    .espace-2{
+        background-color: #FFFFFF;
+        margin: 10%;
+        width: 100%;
+    }
+    .cont{
+        height: 30%;
+        width: 100%;
+    }
+    .social{
+        width: 10%;
+        margin-top: 8%;
+        padding-left: 0%;
+    }
+    .social2{
+        width: 10%;
+        margin-top: -50px;
+        padding-left: 44.5%;
+    }
+    .social3{
+        width: 10%;
+        margin-top: -26px;
+        padding-left: 75%;
+    }
+    .one{
+        left: 95%;
+    }
+    .two{
+        left: 35%;
+    }
+    .three{
+        left: 5%;
+    }
+    .cont-2{
+        height: 30%;
+    }
+    .contener{
+        width: 100%;
+    }
+    .imagen{
+        margin-left: 18%;
+        margin-bottom: 5%;
+    }
+    .line{
+        padding-top: 50px;
+        text-align: center;
+    }
+    .letter{
+        text-align: center;
+        width: 50%;
+        margin-left: 25%;
+        margin-top: -1%;
+    }
+    .letter h6{
+        margin-bottom: 5%;
+    }
+    .enviar p{
+        margin-top: .2%;
+    }
+    .container-copy{
+        height: 100%;
+    }
 }
