@@ -128,7 +128,7 @@ h3.company-name{
     text-align: center;
     width: 100%;
     align-items: center;
-    left: 15%;
+    left: 50%;
 }
 .flecha-1{
     margin-left: 75%;
@@ -199,7 +199,7 @@ h3.company-name{
     position: absolute;
     align-items: center;
     display: flex;
-    left: 120%;
+    left: 170%;
     margin-top: -72%;
 }
 .tabla th{
@@ -228,7 +228,7 @@ h3.company-name{
     width: 390px;
 }
 .info{
-    margin-left: 110px;
+    margin-left: 45%;
     position: relative;
     margin-top: 80px;
 }
@@ -353,11 +353,11 @@ h3.company-name{
     padding: 25px;
 }
 .social2{
-	margin-top: -17%;
+	margin-top: -11%;
 	padding-left: 30%;
 }
 .social3{
-	margin-top: -9%;
+	margin-top: -6%;
 	padding-left: 46%;
 }
 .column{
@@ -439,6 +439,233 @@ h3.company-name{
     background: #103365;
 	color: rgb(255, 255, 255, 0.6);
 	font-size: 14px;
+}
+@media (min-width: 320px) and (max-width: 767px){
+    .textos-header{
+		width:100%;
+	}
+
+	.header{
+		width: 100%;
+	}
+	.img-logo{
+		padding-left: 12.5%;
+	}
+	h3.company-name{
+		padding-top: 1%;
+		font-size: 20px;
+		padding-left: 5%;
+	}
+
+	.services{
+		top: 27%;
+		font-size: 20px;
+	}
+	.services2{
+        right: 15%;
+        top: 75%;
+		font-size: 9px;
+	}
+	.services3{
+        left: 5%;
+        top: 75%;
+		font-size: 9px;
+    }
+    .services4{
+        top: 75%;
+        left: 41%;
+        font-size: 9px;
+    }
+	.circulo{
+        width: 1%;
+        left: 42%;
+		top: 83.5%;
+    }
+    .circulo_1{
+        width: 1%;
+        left: 62%;
+		top: 83.5%;
+	}
+	.nav-link{
+		text-align: center;
+		width: 100%;
+		font-size: 15px;
+	
+	}
+	.remarcado{
+		width: 100%;
+		text-align: center;
+    }
+	button{
+		text-align: center;
+        margin-left: -43%;
+		width: 100%;
+		height: 25%;
+		font-size: 15px;
+    }
+    .fondo-azul{
+        left: 2%;
+        text-align: center;
+    }
+    .chica{
+        width: 80%;
+        left: 10%;
+    }
+    .tabla{
+        width: 30%;
+        margin-left: -46%;
+        margin-top: 30%;
+    }
+    .info{
+        width: 50%;
+        left: -14%;
+        top: 12%;
+    }
+    h2.part-1{
+        font-size: 20px;
+    }
+    h2.part-2{
+        font-size: 20px;
+    }
+    h2.part-3{
+        font-size: 20px;
+    }
+    p.part-1{
+        font-size: 14px;
+    }
+    p.part-2{
+        font-size: 14px;
+    }
+    p.part-3{
+        font-size: 14px;
+    }
+    .pricing{
+        width: 40%;
+        left: -60%;
+    }
+    .table22{
+        width: 10%;
+        font-size: 14px;
+    }
+    td.ti1{
+        font-size: 14px;
+    }
+    td.ti2{
+        font-size: 14px;
+    }
+    td.ti3{
+        font-size: 14px;
+    }
+    td.ti4{
+        font-size: 14px;
+    }
+    td.ti5{
+        font-size: 14px;
+    }
+    td.ti6{
+        font-size: 14px;
+    }
+
+    td.word{
+        font-size: 14px;
+        margin-top: -0%;
+        margin-left: 32%;
+    }
+    td.word-1{
+        font-size: 14px;;
+        margin-left: 29%;
+    }
+    td.word-2{
+        margin-top: 0%;
+        font-size: 14px;
+        margin-left: 17%;
+    }
+    td.word-3{
+        font-size: 14px;
+        margin-left: 30.5%;
+    }
+    td.word-4{
+        font-size: 14px;
+        margin-left: 27%;
+    }
+    td.word-5{
+        font-size: 14px;
+    }
+    .part-4{
+        margin-bottom: 90%;
+        margin-left: -10%;
+    }
+    h2.rela{
+        font-size: 20px;
+    }
+    p.rela1{
+        font-size: 14px;
+    }
+    p.rela2{
+        font-size: 14px;
+    }
+    p.rela3{
+        font-size: 14px;
+    }
+
+
+
+    .cont{
+		height: 30%;
+		width: 100%;
+	}
+	.social{
+		width: 10%;
+		padding-left: 0%;
+	}
+	.social2{
+        width: 10%;
+        margin-top: -11.25%;
+		padding-left: 37%;
+	}
+	.social3{
+        width: 10%;
+        margin-top: -7%;
+		padding-left: 75%;
+	}
+	.one{
+        text-align: center;
+		left: 68%;
+		padding-top: 20%;
+	}
+	.two{
+        text-align: center;
+		left: 52%;
+	}
+	.three{
+        text-align: center;
+		left: 68%;
+	}
+	.cont-2{
+		height: 30%;
+	}
+	.contener{
+		width: 90%;
+	}
+	.imagen{
+		margin-left: 37%;
+		margin-bottom: -12%;
+    }
+    .col-sm-6 p{
+        width: 100%;
+        margin-left: 5%;
+        text-align: center;
+    }
+	.letter{
+		width: 100%;
+		margin-left: 10%;
+		margin-top: 5%;
+	}
+	.container-copy{
+        height: 100%;
+        font-size: px;
+	}
+
 }
 
 @media (min-width: 768px) and (max-width: 1023px){
@@ -529,13 +756,14 @@ h3.company-name{
         height: auto;
     }
     .chica{
-        margin-left: 80px;
+        margin-left: -26%;
+        width: 100%
     }
     .tabla table{
         width: 100%;
         margin-top: 50%;
         text-align: center;
-        margin-left: 40px;
+        margin-left: -17%;
     }
     .flecha-1{
         left: 180%;

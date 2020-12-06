@@ -637,7 +637,7 @@ h2.mangos3{
     line-height: 24px;
     color: #09A4D8;
     width: 100%;
-    margin-left: 15%;
+    margin-left: 0%;
     }
 h3.we-have3{
     font-family: 'Roboto Slab', serif;
@@ -783,6 +783,7 @@ h2.ver{
     text-decoration-line: underline;
     color: #09A4D8;
 }
+
 
 
 @media (min-width: 320px) and (max-width: 767px) {
@@ -1182,16 +1183,27 @@ h2.ver{
         margin-left: -20%;
     }
     img.last-1{
-        left: 24.5%;
+        width: 100%;
+        left: 20%;    }
+    img.last-2{
+        width: 100%;
+        left: 20%; 
+    }
+    img.last-3{
+        width: 100%;
+        left: 20%; 
     }
     h2.last-1-2{
-        padding-bottom: 2%;
+        padding-bottom: 5%;
+        font-size: 16px;
     }
     h2.last-2-2{
-        padding-bottom: 2%;
+        padding-bottom: 5%;
+        font-size: 16px;
     }
     h2.last-3-2{
-        padding-bottom: 2%;
+        padding-bottom: 5%;
+        font-size: 16px;
     }
     h2.ver{
         text-align: center;
@@ -1433,8 +1445,26 @@ h2.ver{
         width: 100%;
 
     }
+
+    h2.mangos3{
+        text-align: center;
+        font-family: 'Rubik', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 24px;
+        color: #09A4D8;
+        width: 100%;
+    }
     h3.we-have3{
-        margin-left: 15%;
+        font-family: 'Roboto Slab', serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 32px;
+        width: 100%;
+        color: #0F1C49;
+        text-align: center;
     }
 
 
