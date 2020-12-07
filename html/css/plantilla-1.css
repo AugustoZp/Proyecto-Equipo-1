@@ -1,19 +1,17 @@
-
-
+body{
+	width: 100%;
+	overflow-x: hidden;
+    font-family: 'Rubik', sans-serif;  
+}
 .fondo{
     background: url(../images/plantilla-1/POLO2.png);
     position: relative;
     width: 100%;
     height: 720px;
 }
-body{
-    font-family: 'Rubik', sans-serif;
-    overflow-x: hidden;
-    width: 100%;
 
-}
-.header
-{
+.header{
+    overflow-x: hidden;
 	width: 100%;
 	padding-bottom: 10px;
 }
@@ -783,6 +781,10 @@ h2.ver{
     text-decoration-line: underline;
     color: #09A4D8;
 }
+
+.footer{
+    width: 100%;
+}
 .contento{
     margin-top: 10%;
     padding-top: 5%;
@@ -792,7 +794,7 @@ h2.ver{
 }
 .nrg{
     position: absolute;
-    margin-left: 24%;
+    margin-left: 9%;
 }
 h4.up{
 
@@ -822,7 +824,7 @@ color: #FFFFFF;
     position: absolute;
     width: 45%;
     margin-left: 45%;
-    left: 75%;
+    left: 48%;
     
 }
 img.rayita{
@@ -1332,6 +1334,60 @@ color: #FFFFFF;
         text-align: center;
         margin-left: 40%;
     }
+
+
+    .contento{
+        width: 100%;
+        height: 800px;
+    }
+    .nrg{
+        margin-top: 1%;
+        width: 100%;
+        left: 12%;
+    }
+    h2.just{
+        font-size: 20px;
+    }
+    .cosito{
+        margin-top: 20%;
+        left:-65%;
+    }
+    img.rayita{
+        width: 80%;
+        margin-top: 22%;
+        left: -10%;
+    }
+    .ing{
+        margin-left: 10%;
+    }
+    .log{
+        margin-top: 25%;
+        font-size: 20px;
+    }
+    .textt{
+        font-size: 14px;
+        margin-top: 45%;
+        width: 50%;
+    }
+    .infort{
+        width: 50%;
+        margin-left: -5%;
+        margin-top: 5%;
+        font-size: 14px;
+
+    }
+    .det{
+        width: 100%;
+        left: 60%;
+        margin-top: -212%;
+        font-size: 12px;
+    }
+    .det2{
+        width: 100%;
+        left: 39.5%;
+        margin-top: 25%;
+        font-size: 12px;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
@@ -1759,5 +1815,39 @@ color: #FFFFFF;
     h2.ver{
         text-align: center;
         margin-left: -4%;
+    }
+    .contento{
+        width: 100%;
+    }
+    .nrg{
+        margin-top: 5%;
+        width: 100%;
+        left: 5%;
+    }
+    h2.just{
+        font-size: 28px;
+    }
+    .cosito{
+        left:5%;
+    }
+    img.rayita{
+        width: 80%;
+        margin-top: 20%;
+        left: -10%;
+    }
+    .infort{
+        width: 100%;
+        height: 300px;
+        margin-top: 5%;
+    }
+    .det{
+        width: 100%;
+        left: -10%;
+        margin-top: -35%;
+    }
+    .det2{
+        width: 100%;
+        left: -8%;
+        margin-top: -33.5%;
     }
 }
